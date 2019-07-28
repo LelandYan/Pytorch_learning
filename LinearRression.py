@@ -35,5 +35,14 @@ def gradient_descent_runner(points,starting_b,starting_w,learning_rate,num_itera
     return [b,w]
 
 import torch
+# import numpy as np
+# print(torch.ones((2,2)))
 
-print(torch.ones((2,2)))
+a = np.random.randn(4, 3) # a.shape = (4, 3)
+b = np.random.randn(3, 2) # b.shape = (3, 2)
+c = a*b
+print(c)
+
+
+# a = [[ 0.67826139] [ 0.29380381] [ 0.90714982] [ 0.52835647] [ 0.4215251 ] [ 0.45017551] [ 0.92814219] [ 0.96677647] [ 0.85304703] [ 0.52351845] [ 0.19981397] [ 0.27417313] [ 0.60659855] [ 0.00533165] [ 0.10820313] [ 0.49978937] [ 0.34144279] [ 0.94630077]]
+
